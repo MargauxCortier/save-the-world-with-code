@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing page</title>
+</head>
+	
+  <header  class="lp_three">
+    <div id="topconteneur" class="container">
+              <div class="row">
+                 <div class="col-xl-9 mx-auto">
+                		<h1 class="b">Become an Independant</h1>
+                		<p class="c">Be smart And save the world</p>
+              		</div>
+              </div>
+            <div class="fleche"></div>​
+          </div>
+	</header>
+
+
+	<body>
+		<div class="content">
+			<h2>WEB DEV PROFESSION</h2>
+		</div>
+
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+          	<span class="iconic iconic-check-thin" title="check thin" aria-hidden="true"></span>
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-screen-desktop m-auto text-primary"></i>
+              </div>
+              <h3>Fully Free</h3>
+              <p class="lead mb-0">You can work from wherever you want</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+          	<span class="iconic iconic-map-marker" title="map marker" aria-hidden="true"></span>
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-layers m-auto text-primary"></i>
+              </div>
+              <h3>Always Challenging</h3>
+              <p class="lead mb-0">The profession grow up as you grow.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+          	<span class="iconic iconic-sun" title="sun" aria-hidden="true"></span>
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-check m-auto text-primary"></i>
+              </div>
+             	<span class="iconic iconic-sun" title="sun" aria-hidden="true"></span>
+              <h3>Easy to Use</h3>
+              <p class="lead mb-0">Good dose of common sens and here we go</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+		<div class="forms" align="center">
+          	<form action="/" method="post">
+          		<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+				  Nickname:
+				  <input type="text" name="name">
+				  Email:
+				  <input type="text" name="email">
+				  <button type="submit" class="bouton" onclick="javascript:alert('You have been succesfully submit')">Here we go</button>
+			</form>
+		</div>
+	</body>
+
+</html>

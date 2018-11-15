@@ -3,7 +3,7 @@ task :email_send => :environment do
   puts "Envoi des emails"
 
 
-    @user = user.all
+    @user = User.all
 
     @user.each do |user|
       LandingPageController.envoi

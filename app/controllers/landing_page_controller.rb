@@ -28,10 +28,5 @@ class LandingPageController < ApplicationController
 
 
 
-  def envoi
-
-      UserMailer.with(user: @user).welcome_email.deliver_now
-
-  end
 
 end

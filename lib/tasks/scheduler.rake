@@ -6,7 +6,7 @@ task :email_send => :environment do
     @user = User.all
 
     @user.each do |user|
-      LandingPageController.envoi
+      UserMailer.welcome_email
     end
 
   puts "Emails envoyés"

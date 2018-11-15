@@ -45,9 +45,6 @@ Google analytics
 Pas besoin de t'expliquer, tu connais, on met un script, on track les Users, on créer nos funnels de conversion, on récupère des Insight Stylé comme le taux de rebond, le nombre de chats dans la maison au moment de la connexion, Le nombre de click sur le bouton bleu plutot que sur le bouton orange, toussa toussa, Mais tu connais !
 
 
-HotJar
-Rien de tel qu'un bon HeatMap des familes pour te rendre compte de tes erreurs en UX desgin, du coup on à intégré HotJar, un super outil qui nous permet d'avoir Ceci 
-
 ### Bilan
 
 C'est la première fois depuis le début de la formation que nous avions à réaliser un projet de cette envergure. Un jour et demi pour penser et réaliser l'ensemble des programmes, des bases de données, c'était court ! Nous avons dû faire appel à toutes les notions que nous avions vues au cours des semaines précédentes.

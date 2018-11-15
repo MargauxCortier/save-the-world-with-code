@@ -4,6 +4,9 @@ class LandingPageController < ApplicationController
     @user = User.new 
   end
 
+  def lpseconde
+    @user = User.new 
+  end
 
  def create 
 	@user = User.new

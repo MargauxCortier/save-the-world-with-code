@@ -13,12 +13,26 @@
 }
 
 .container {
-	margin-top: 6px;
+	margin-top: 30px;
+  height: 150px;
+  width: 10%;
+  background-color: Transparent;
+  background:  rgba(255, 255, 255, 0.4);}
+
+.flecheblanche {
+    content:url(flecheblanche.png);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
 }
 
 h1.a {
 	text-align: center;
 	color: black;
+  margin-top: 20px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	font-size: 400%;
@@ -32,6 +46,8 @@ p.b {
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	font-size: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
 	text-align: center;
 	margin-top: 2%;
 }
@@ -41,8 +57,10 @@ p.b {
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 8px;
-	margin: 0;
-	padding: 0;
+/*	margin: 0;
+	padding: 0;*/
+  padding-bottom: 5%;
+  padding-top: 5%;
 	font-size: 5%;
 
 }

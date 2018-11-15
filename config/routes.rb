@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-	
-  post '/', to: 'landing_page#lpfirst'
+	root 'landing_page#lpfirst'
+  get '/', to: 'landing_page#lpfirst'
   
   post '/', to:'landing_page#create'
   resources :new_users

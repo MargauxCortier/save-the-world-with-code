@@ -1,5 +1,5 @@
 # Projet THP Landing pages
- <a href="https://thp-growth-hack.herokuapp.com" target="_blank">Thp-Growth-Hack</a>
+ <a href="https://save-the-world-with-code.herokuapp.com">Thp-Growth-Hack</a>
 
 ### Salut!
 

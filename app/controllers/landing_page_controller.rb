@@ -1,11 +1,11 @@
 class LandingPageController < ApplicationController
-  
+
   def lpfirst
-    @user = User.new 
+    @user = User.new
   end
 
 
- def create 
+ def create
 	@user = User.new
 	@user.name = params["name"]
   @user.email = params["email"]
@@ -25,5 +25,14 @@ class LandingPageController < ApplicationController
     end
   end
 	end
+
+
+  def envoi
+
+    User.each do |user|
+      UserMailer.with(user: @user).welcome_email.deliver_now
+    end
+
+  end
 
 end

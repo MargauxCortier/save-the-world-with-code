@@ -1,16 +1,70 @@
-@import "bootstrap";
+/* Footer */
 
-img {
-    width: 30px;
-    height: 30px;
+.footer {
+  font-size: small;
+  position: static;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 6em;
+  width: 100%;
+  grid-area: footer;
+  background-color: #EEEEEF;
+  border-style: solid;
+  border-width: 0px;
+  display: grid;
+  grid-template-columns: 0.9fr 1fr 0.9fr;
+  grid-template-rows: 1fr;
+  grid-gap: 1px;
+  grid-template-areas: "gitlink networks copyrights";
 }
 
-.resaux {
-	display: flex;
-	justify-content: flex-end;	
+.gitlink {
+  grid-area: gitlink;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
 
-img:hover {
-	width: 35px;
-    height: 35px;
+.github_link {
+  color : black;
+  text-decoration: none;
+  margin-left: 3px;
+  font-weight: bold;
+}
+
+.github_link:hover {
+  color : #67676F;
+  text-decoration: underline;
+}
+
+.networks {
+  grid-area: networks;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 40px 0 40px;
+}
+
+.networks:hover .net-logo {
+  transform: scale(1.4);
+}
+
+.net-logo {
+  width: 15px;
+  height: 15px;
+  transition: transform .2s;
+}
+
+.net-logo:hover {
+  transform: scale(1.8  ) !important;
+}
+
+.copyrights {
+  grid-area: copyrights;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
 }

@@ -1,14 +1,14 @@
 class LandingPageController < ApplicationController
-  
+
   def lpfirst
-    @user = User.new 
+    @user = User.new
   end
 
   def lpseconde
     @user = User.new 
   end
 
- def create 
+ def create
 	@user = User.new
 	@user.name = params["name"]
   @user.email = params["email"]
@@ -28,5 +28,8 @@ class LandingPageController < ApplicationController
     end
   end
 	end
+
+
+
 
 end

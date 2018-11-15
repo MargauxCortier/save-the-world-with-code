@@ -2,14 +2,13 @@
 <html>
 <head>
 	<title>Landing page</title>
-	<link rel="stylesheet" type="text/css" href="stylesheet">
 </head>
 	<header  class="lp_one">
 		<div class="container">
         <div class="row">
          <div class="col-xl-9 mx-auto">
-		<h1 class="a">Became an Independant</h1>
-		<p class="b">Looking forward to get ride of this amazing adventure</p>
+		<h1 class="a">Become an Independant</h1>
+		<p class="b">Get rid of all those fucking bosses</p>
 		</div></div></div>
 <!-- 		<div style="text-align:center;"><button id="myBtn" onclick="javascript:alert('You have been succesfully submit')">push me on</button></div> -->
 	</header>
@@ -17,18 +16,7 @@
 
 	<body>
 		<div class="content">
-			<div><h2>More information</h2>
-
-	          	<div class="forms" align="center">
-		          	<form>
-						  Nickname:
-						  <input type="text" name="name">
-						  Email:
-						  <input type="text" name="email">
-       					  <button type="submit" class="btn">Here we go</button>
-					</form>
-				</div>
-			</div>
+			<h2>WEB DEV PROFESSION</h2>
 		</div>
 
     <section class="features-icons bg-light text-center">
@@ -60,6 +48,7 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-check m-auto text-primary"></i>
               </div>
+             	<span class="iconic iconic-sun" title="sun" aria-hidden="true"></span>
               <h3>Easy to Use</h3>
               <p class="lead mb-0">Good dose of common sens and here we go</p>
             </div>
@@ -68,6 +57,16 @@
       </div>
     </section>
 
+		<div class="forms" align="center">
+          	<form action="/" method="post">
+          		<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+				  Nickname:
+				  <input type="text" name="name">
+				  Email:
+				  <input type="text" name="email">
+				  <button type="submit" class="bouton" onclick="javascript:alert('You have been succesfully submit')">Here we go</button>
+			</form>
+		</div>
 	</body>
 
 </html>

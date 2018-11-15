@@ -10,21 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
-=======
-ActiveRecord::Schema.define(version: 0) do
-
->>>>>>> def29067422a30927c2733caa89e6703c4f13e19
 ActiveRecord::Schema.define(version: 2018_11_15_105501) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> def29067422a30927c2733caa89e6703c4f13e19
   create_table "users", force: :cascade do |t|
     t.string "name"
     t.string "email"
@@ -32,8 +22,4 @@ ActiveRecord::Schema.define(version: 2018_11_15_105501) do
     t.datetime "updated_at", null: false
   end
 
-<<<<<<< HEAD
-=======
-
->>>>>>> def29067422a30927c2733caa89e6703c4f13e19
 end

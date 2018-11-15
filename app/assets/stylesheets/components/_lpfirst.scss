@@ -34,13 +34,41 @@ p.b {
 	font-size: 20px;
 	text-align: center;
 	margin-top: 2%;
+}
+
+.content {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	margin: 0;
+	padding: 0;
+	font-size: 5%;
 
 }
 
+/*@media screen and (max-device-width : 320px)
+{
+  body or yourdiv element
+  {
+    font: 20px/em/rm;
+  }
+}
+@media screen and (max-device-width : 1204px)
+{
+  body or yourdiv element
+  {
+    font: 20px/em/rm;
+  }
+}*/
+
 button {
-/*    background-color: Transparent;
+/*  background-color: Transparent;
     background:  rgba(255, 255, 255, 0.2);*/
-    background-color: #293c4b;
+	background-color: #e7e7e7;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
@@ -48,27 +76,24 @@ button {
     outline:none;
     color:  #fff;
     padding: 9px 70px;
-
 }
 
 button:hover  {
     font-weight:bold;
  }
 
- button:focus {
+button:focus {
 	outline: none;
 }
 
-.content {
-	font-family: 'Source Sans Pro', sans-serif;
-	display: flex;
-	justify-content: space-around;
-}
-#293c4b
 .forms {
+  	align-items: center;
    	text-align: center;
    	vertical-align: middle;
 	color: black;
+	padding-bottom: 3%;
+	padding-top: 3%;
+
 }
 
 input:focus {

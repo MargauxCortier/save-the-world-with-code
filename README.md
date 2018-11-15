@@ -4,9 +4,9 @@
 ### Salut!
 
 Comme demandé, on a 3 landing pages pour 3 cibles différentes : 
-- <a href="https://thp-growth-hack.herokuapp.com" target="_blank">les étudiants de Poitiers</a>
-- <a href="https://thp-growth-hack.herokuapp.com/hometwo/" target="_blank">les étudiants de Nanterre</a>
-- <a href="https://thp-growth-hack.herokuapp.com/homethree/" target="_blank">les centres culturelles de Bretagne</a>
+- <a href="https://thp-growth-hack.herokuapp.com" target="_blank">XXXXXXX</a>
+- <a href="https://thp-growth-hack.herokuapp.com/hometwo/" target="_blank">XXXXXXX</a>
+- <a href="https://thp-growth-hack.herokuapp.com/homethree/" target="_blank">XXXXXX</a>
 
 Le but de ce projet est de synthétiser un grand nombre de hacks que nous avons appris au cours de la formation THP pendant les 6 dernieres semaines. 
 Il s'agissait de créer une application Rails capable d'envoyer des mails à une liste de prospects (#PasPropreDuTout / #LaRGPDestTuéeDansl'Oeuf), leur proposer d'atterir sur une landing page adaptée en fonction des publics visés(#AllezViensOnEstBien / #TuConnaisDisneyLand?), d'où ensuite ils pourront s'inscrire à une newsletter qui leur serait envoyée toutes les semaines(#T'enApourl'AnnéeÀteDésincrire). 

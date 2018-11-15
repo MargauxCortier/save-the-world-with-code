@@ -16,7 +16,15 @@
 	margin-top: 6px;
 }
 
-h1.a {
+#conteneur {
+  background-color: #EEEEEF; 
+}
+
+h2 {
+  margin-top: 8px;
+}
+
+h1.a {  
 	text-align: center;
 	color: black;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -65,7 +73,7 @@ p.b {
 button {
 /*  background-color: Transparent;
     background:  rgba(255, 255, 255, 0.2);*/
-	background-color: #e7e7e7;
+	  background-color: #e7e7e7;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -74,12 +82,13 @@ button {
     cursor:pointer;
     overflow: hidden;
     outline:none;
-    color:  #fff;
+    color:  black;
     padding: 9px 70px;
+    margin-left: 10px;
 }
 
 button:hover  {
-    font-weight:bold;
+    background-color: #f2f5f5 ;
  }
 
 button:focus {
@@ -87,13 +96,13 @@ button:focus {
 }
 
 .forms {
-  	align-items: center;
-   	text-align: center;
-   	vertical-align: middle;
+  display: grid;
+	align-items: center;
+ 	text-align: center;
+ 	vertical-align: middle;
 	color: black;
-	padding-bottom: 3%;
-	padding-top: 3%;
-
+	padding: 3%;
+  margin-right: 3%;
 }
 
 input:focus {

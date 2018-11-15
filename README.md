@@ -17,7 +17,7 @@ La création du projet se décompose en 4 étapes (enfin presque) :
 # Etape 1: Choisir les cibles de notre campagne d'emailing 🎯
 
 Nous avons isolé trois publics cibles, pour lesquels nous avons créé trois landing pages respectives, correspondant à nos trois stratégies marketing ciblées : 
-- les femmes, qui sont sous représentées dans le milieu du développement web, et qu’il semble donc nécessaire de démarcher de façon individualisée, prenant en compte les problématiques spécifiques de ce public (principalement l’autocensure).
+- les femmes, qui sont sous-représentées dans le milieu du développement web, et qu’il semble donc nécessaire de démarcher de façon individualisée, prenant en compte les problématiques spécifiques de ce public (principalement l’autocensure).
 - les jeunes adultes susceptibles d’être intéressés par l’acquisition de nouvelles compétences très appréciées par les recruteurs et indispensables aux entrepreneurs en devenir,
 - une région économiquement peu dynamique, dont les habitants qui ne souhaitent pas se relocaliser dans d’autres régions sont susceptibles d’être intéressés par des emplois à distance, et par une formation ne nécessitant pas de déplacement géographique. Nous avons choisi le Nord pas de Calais, mais cette stratégie marketing peut s’’appliquer à d’autres régions de France ou du monde. 
 
@@ -50,7 +50,7 @@ Rien de tel qu'un bon HeatMap des familes pour te rendre compte de tes erreurs e
 
 ### Bilan
 
-C'est la première fois depuis le début de la formation que nous avions à réaliser un projet de cette envergure. Un jour et demi pour penser et réaliser l'ensemble des programmes, des bases de données, et des implications nécessaires étaient courts pour faire appel à toutes les notions que nous avions vues au cours des semaines précédentes.
+C'est la première fois depuis le début de la formation que nous avions à réaliser un projet de cette envergure. Un jour et demi pour penser et réaliser l'ensemble des programmes, des bases de données, c'était court ! Nous avons dû faire appel à toutes les notions que nous avions vues au cours des semaines précédentes.
 
 ### Installation
 

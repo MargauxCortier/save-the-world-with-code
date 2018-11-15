@@ -27,9 +27,10 @@ class LandingPageController < ApplicationController
 	end
 
 
+
   def envoi
 
-    User.each do |user|
+    @client.each do |user|
       UserMailer.with(user: @user).welcome_email.deliver_now
     end
 

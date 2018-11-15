@@ -16,31 +16,41 @@ La création du projet se décompose en 4 étapes (enfin presque) :
 
 # Etape 1: Choisir les cibles de notre campagne d'emailing 🎯
 
-C'est l'étape qui nous a pris le plus de temps dans la reflexion, la faisabilité et la conception, en fonction de la possibilité d'obtenir rapidement un grand nombre d'adresse mails.
-Notre choix s'est porté sur 3 publics différents dont l'intérêt pour la formation pourrait se manifester:
-- les institutions culturelles de toute la région Bretagne
-- les étudiants de la fac de Poitiers
-- les étudiants de la fac de Nanterre
-
-Une fois les emails reçus par différents biais, scrapping et formulaires publics sur le net, il s'agissait dès lors de concevoir une app automatique qui allait envoyer un mail adapté à chaque public, avec on l'espère un fort taux de conversion. Les mails ont été stockés sur Mailchimp.
+Nous avons isolé trois publics cibles, pour lesquels nous avons créé trois landing pages respectives, correspondant à nos trois stratégies marketing ciblées : 
+- les femmes, qui sont sous représentées dans le milieu du développement web, et qu’il semble donc nécessaire de démarcher de façon individualisée, prenant en compte les problématiques spécifiques de ce public (principalement l’autocensure).
+- les jeunes adultes susceptibles d’être intéressés par l’acquisition de nouvelles compétences très appréciées par les recruteurs et indispensables aux entrepreneurs en devenir,
+- une région économiquement peu dynamique, dont les habitants qui ne souhaitent pas se relocaliser dans d’autres régions sont susceptibles d’être intéressés par des emplois à distance, et par une formation ne nécessitant pas de déplacement géographique. Nous avons choisi le Nord pas de Calais, mais cette stratégie marketing peut s’’appliquer à d’autres régions de France ou du monde. 
 
 # Etape 2: La landing page template MAISONNNN 👨‍💻  💪 🔥
 
-Nous avons donc, comme demandé, généré 3 landing pages différents pour chacun de nos publics.
-Chaque landing page a été créee par nos soins à l'aide d'Illustrator puis mis en production grace à Bootstrap, et sont parfaitement responsive.
+Nous avons donc, comme demandé, généré 3 landing pages différents pour chacun de nos publics. Chaque landing page a été créée en Bootstrap, CSS et html. Le talent de nos développeurs nous permet d’utiliser du Bootstrap responsive et artisanal.
 
 Chaque landing page propose un discours adapté à la cible, une redirection vers le programme de la formation, et un CTA qui invite à s'inscrire sur la newsletter.
+Choix du design : 
+- Page pour les femmes : nous avons choisi un fond d’écran représentant les valeurs d’empowerement de la formation : une femme active et téméraire. Les couleurs sont dynamiques. Le logo bouscule les lecteurs par son audace, attractif dès le premier regard. La police utilise des codes féminins,  tout en rondeur mais à la fois moderne et actuelle.
+- Page pour les jeunes adultes : des pieds d’ados, à la fois branchés et décontractés, totalement en accord avec les valeurs de THP, et celle de la jeunesse actuelle.
+- Page pour région économiquement peu dynamique : un intérieur qui évoque la possiblité de travailler de chez soi.
 
-Choix du design : la landing page a été formulée dans un esprit digital pour attirer les jeunes étudiants, le fait d'utiliser les grilles permet de jouer sur la composition, il ne reste plus qu'à jouer avec les visuels, effets et couleurs pour adapter à la cible.
+# Etape 3 : le mailer 🖥
 
-# Etape 3 : la newsletter 💌
+Le mailer a été effectué avec l’action mailer de ruby. Il a fallu installer la gem mail et  brancher le mailer au controlleur de la landing page qui reçoit les emails et noms des inscrits. Chaque nouvel inscrit reçoit automatiquement la Newsletter. Bim
 
-Une fois inscrit sur la newsletter, le subscriber reçoit un mail lui confirmant son inscription. Son adresse mail sera stockée sur Mailchimp dans une liste. 😈
+# Etape 4 : la newsletter 💌
 
-# Etape 4: Les tâches automatisées et les tests 🔁
+Une fois inscrit sur la newsletter, le subscriber reçoit un mail lui confirmant son inscription. Son adresse mail sera stockée sur dans la database de l’application, dans le model user. 😈
 
-Deux actions à effectuer par deux bots. Nous avons choisi Twitter avec un public ciblant les institutions culturelles, et Youtube, où il nous a semblé pertinent d'aller commenter des videos de Youtubers influents comme Norman, Cyprien et autres. Ces actions seront automatisées par le biais de Heroku Scheduler.
+# Etape 5: Metrics 🔁
 
+Google analytics 
+Pas besoin de t'expliquer, tu connais, on met un script, on track les Users, on créer nos funnels de conversion, on récupère des Insight Stylé comme le taux de rebond, le nombre de chats dans la maison au moment de la connexion, Le nombre de click sur le bouton bleu plutot que sur le bouton orange, toussa toussa, Mais tu connais !
+
+
+HotJar
+Rien de tel qu'un bon HeatMap des familes pour te rendre compte de tes erreurs en UX desgin, du coup on à intégré HotJar, un super outil qui nous permet d'avoir Ceci 
+
+### Bilan
+
+C'est la première fois depuis le début de la formation que nous avions à réaliser un projet de cette envergure. Un jour et demi pour penser et réaliser l'ensemble des programmes, des bases de données, et des implications nécessaires étaient courts pour faire appel à toutes les notions que nous avions vues au cours des semaines précédentes.
 
 ### Installation
 

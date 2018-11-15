@@ -5,8 +5,8 @@
 
 Comme demandé, on a 3 landing pages pour 3 cibles différentes : 
 - <a href="https://save-the-world-with-code.herokuapp.com" target="_blank">girls who code</a>
-- <a href="https://thp-growth-hack.herokuapp.com/hometwo/" target="_blank">XXXXXXX</a>
-- <a href="https://thp-growth-hack.herokuapp.com/homethree/" target="_blank">XXXXXX</a>
+- <a href="https://save-the-world-with-code.herokuapp.com/diplomé" target="_blank">adult</a>
+- <a href="https://save-the-world-with-code.herokuapp.com/nord" target="_blank">nord</a>
 
 Le but de ce projet est de synthétiser un grand nombre de hacks que nous avons appris au cours de la formation THP pendant les 6 dernieres semaines. 
 Il s'agissait de créer une application Rails capable d'envoyer des mails à une liste de prospects (#PasPropreDuTout / #LaRGPDestTuéeDansl'Oeuf), leur proposer d'atterir sur une landing page adaptée en fonction des publics visés(#AllezViensOnEstBien / #TuConnaisDisneyLand?), d'où ensuite ils pourront s'inscrire à une newsletter qui leur serait envoyée toutes les semaines(#T'enApourl'AnnéeÀteDésincrire). 

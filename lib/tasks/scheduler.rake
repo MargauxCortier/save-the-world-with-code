@@ -3,7 +3,7 @@ task :email_send => :environment do
   puts "Envoi des emails"
 
 
-    User.last.envoi
+    User.LandingPageController.envoi
 
   puts "Emails envoyés"
 end

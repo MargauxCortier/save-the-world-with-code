@@ -1,5 +1,5 @@
 Rails.application.configure do
-<<<<<<< HEAD
+
   config.action_mailer.delivery_method = :sendmail
 # Defaults to:
 # config.action_mailer.sendmail_settings = {
@@ -10,16 +10,7 @@ config.action_mailer.perform_deliveries = true
 config.action_mailer.raise_delivery_errors = true
 config.action_mailer.default_options = {from: 'bundle.thp@gmail.com'}
 
-config.action_mailer.delivery_method = :smtp
-config.action_mailer.smtp_settings = {
-address:              'smtp.gmail.com',
-port:                 587,
-domain:               'example.com',
-user_name:            'bundle.thp',
-password:             'bundleinstall',
-authentication:       'plain',
-enable_starttls_auto: true  }
-=======
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -92,5 +83,5 @@ config.action_mailer.smtp_settings = {
   enable_starttls_auto: true 
 }
   
->>>>>>> 9ad2b7e428c7773add72ebc53cc737a711332821
+ 
 end

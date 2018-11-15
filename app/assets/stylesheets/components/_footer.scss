@@ -1,0 +1,16 @@
+@import "bootstrap";
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.resaux {
+	display: flex;
+	justify-content: flex-end;	
+}
+
+img:hover {
+	width: 35px;
+    height: 35px;
+}
